@@ -1,0 +1,145 @@
+* { box-sizing: border-box; }
+html, body {
+height: 100%;
+background-color: antiquewhite;
+}
+a, button {
+cursor: pointer;
+}
+@keyframes pan {
+    100% { background-position: 15% 50%; }
+    }
+    body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    }
+   
+
+/*header*/
+header{
+    padding-top:10px ;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-size-adjust: 20%;
+    color:black;
+    font-weight:100px;
+    font-size: x-large;
+
+}
+
+header:hover{
+    color:rgb(255, 60, 0)
+}
+
+
+
+
+
+/*first two image*/
+
+
+*{
+    margin: 0;
+    border: 0;
+}
+
+.container .row {
+    padding-top: 40px;
+    display: flex;
+}
+
+.container .row .column{
+    flex: 50%;
+    padding: 5px;
+    padding-left: 50px;
+}
+
+.column > a{
+    text-align:center;
+    align-items:center;
+    font-size: x-large;
+    color: black;
+    padding-left: 150px;
+}
+
+/*neat two images*/
+
+.campus-container .row {
+    padding-top:40px;
+    display: flex;
+}
+
+.campus-container .row .column1{
+    flex: 50%;
+    padding: 5px;
+    padding-left: 50px;
+}
+.column1 > a{
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    padding-left: 150px;
+    text-shadow: 50px black ;
+}
+
+/* last-3-images*/
+
+.container .row {
+    padding-top: 40px;
+    display: flex;
+}
+
+
+.container .row .column2{
+    flex: 50%;
+    padding: 5px;
+    padding-left: 50px;
+}
+
+.column2 > a{
+    text-align:center;
+    align-items:center;
+    font-size: x-large;
+    color: black;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+
+a:hover{
+    color:red;
+}
+
+
+.about{
+
+        overflow: hidden;
+        padding-top: 25px;
+        padding-right: 1200px;
+    }
+    
+    .about div{
+        box-shadow: 8px 8px red inset;
+    }
+    .about a{
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .about a:hover{
+        background-color: black;
+        color: white;
+    }
+    
+    .about a:active{
+        background-color: #04AA6D;
+        color: white;
+    }
+
+    
+
